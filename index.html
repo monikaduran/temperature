@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Global Mean Estimates Based on Land-Surface Air Temperature Anomalies Only</title>
+
+    <style>
+    .inside
+    {
+
+      font-size: 20px;
+      font-weight: bold;
+      fill:black;
+    }
+    .label
+    {
+
+      font-size: 20px;
+      font-weight: bold;
+
+
+    }
+
+    h1{
+
+    text-align: center;
+    color: #6b486b;
+    
+    margin: 2%; 
+  
+    
+    }
+
+  </style>
+
+    <link href="transport.css" rel="stylesheet">
+    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+   <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Global Mean Estimates Based on Land-Surface Air Temperature Anomalies Only</h1>
+  <div class ="description">
+            <table>
+          <tr>
+            <td>
+              <select>
+                <option id="item" value="January">January</option>
+                <option id="item" value="February">February</option>
+                <option id="item" value="March"> March</option>
+                <option id="item" value="April"> April</option>
+                <option id="item" value="May"> May</option>
+                <option id="item" value="June"> June</option>
+                <option id="item" value="July"> July</option>
+                <option id="item" value="August"> August</option>
+                <option id="item" value="September"> September</option>
+                <option id="item" value="October"> October</option>
+                <option id="item" value="November"> November</option>
+                <option id="item" value="December"> December</option>
+                
+              </select>
+            </td>
+        </tr>
+        <tr>
+              <td>
+                <ul>
+                  <li><input type="checkbox" class="checkbox" name="check" value="sort"> </li>
+                  <li>Sort by percent change</li>
+                </ul>
+              </div>
+            </td>
+
+        </tr>
+          </table>
+      </div>
+      <br>
+      <div id="chart-container"></div>
+       <script type="text/javascript" src="transport.js"></script>
+    </div> <!--description-->
+  </body>
+  </html>
