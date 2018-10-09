@@ -15,5 +15,5 @@ Monica Katherine Duran Vaca
 
 https://monikaduran.github.io/temperature/
 
-#https://imagizer.imageshack.com/v2/320x240q90/922/tiabWF.png
+https://imagizer.imageshack.com/v2/320x240q90/922/tiabWF.png
 
